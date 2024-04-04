@@ -1,8 +1,16 @@
 [package]
 name = "rab"
+description = "Rust Automatic Backlight"
 version = "0.1.0"
 edition = "2021"
+authors = ["Mamad Zahiri"]
+repository = "https://github.com/mamad-zahiri/rab"
+keywords = ["backlight", "automatic"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+confy = "0.6.1"
+image = "0.25.0"
+serde = "1.0.197"
+serde_derive = "1.0.197"
